@@ -3,6 +3,7 @@
 */
 function encuentraElNumeroMayor( listaNumeros) {
   // Escribe tu código aquí
+  return Math.max.apply(null, listaNumeros);  
   
 }
 // estos son los tests para probar que lo que hiciste este bien
